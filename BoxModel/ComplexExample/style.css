@@ -1,0 +1,16 @@
+.box-demo{
+    width: 400px;
+    height: 400px;
+}
+
+.box-demo[data-sizing="intrinsic"] {
+    width: max-content;
+    height: max-content;
+}
+
+.box-layout{
+    display: grid;
+    width: max-content;
+    gap: 0.5rem;
+    grid-template-columns: 1fr min-content;
+}

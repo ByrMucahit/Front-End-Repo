@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Complex Example</title>
+</head>
+<body>
+  <label class="toggle" for="intrinsic-switch">
+      <span class="toggle__label">Turn on intrinsic sizing</span>
+      <input type="checkbox" role="switch" class="toggle__element" id="intrinsic-switch"/>
+      <div class="toggle_decor" aria-hidden="true">
+          <div class="toggle_thumb"></div>
+      </div>
+  </label>
+  <div class="box-layout">
+      <div class="dimension-label" aria-live="polite" aria-label="Current box width">
+          <span data-element="width-label"></span>
+      </div>
+      <div></div>
+      <figure class="box-demo box" data-element="parent-box">
+          <img src="http://source.unsplash.com/CiFaYIvZyyA/800" alt="A purple Petunia flower in close focus" />
+          <figcaption contenteditable>
+              You can edit this text to see how it changes the layout of our box, depending on intrinsic and extrinsic sizing.
+          </figcaption>
+      </figure>
+      <div class="dimension-label" aria-live="polite" aria-label="Current box height" data-orientation="vertical">
+          <span data-element="height-label">
+
+          </span>
+      </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
