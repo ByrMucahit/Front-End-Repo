@@ -1,0 +1,7 @@
+:checked ~ .toggle__decor {
+    background: rebeccapurple;
+}
+
+:checked ~ .toggle__decor .toggle__thumb {
+    transform: translateX(120) rotate(270deg);
+}
