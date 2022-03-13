@@ -1,0 +1,16 @@
+strong {
+    font-weight: 900;
+}
+
+.my-component {
+    font-weight: 500;
+}
+
+.my-component strong {
+    font-weight: inherit;
+}
+
+/* System font stack to show the difference in weights */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, Roboto, noto, "Segoe UI",Arial, sans-serif;
+}

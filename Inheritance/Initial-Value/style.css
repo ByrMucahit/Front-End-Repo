@@ -1,0 +1,7 @@
+aside strong {
+    font-weight: initial;
+}
+
+article > * + * {
+    margin-top: 1em;
+}

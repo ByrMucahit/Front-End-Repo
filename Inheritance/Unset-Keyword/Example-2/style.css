@@ -1,0 +1,14 @@
+p {
+    margin-top: 2em;
+    color: goldenrod;
+    padding: 2em;
+    border: 1px solid;
+}
+
+aside p {
+    margin: unset;
+    color: unset;
+}
+aside {
+    margin-top: 2em;
+}

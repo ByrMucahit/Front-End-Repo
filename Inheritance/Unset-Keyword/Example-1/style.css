@@ -1,0 +1,9 @@
+p {
+    margin-top: 2em;
+    color: goldenrod;
+}
+
+aside p {
+    margin: unset;
+    color: unset;
+}

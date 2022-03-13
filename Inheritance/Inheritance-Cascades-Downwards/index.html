@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Inheritance Cascades Downwards | Inheritance</title>
+</head>
+<body>
+    <div class="wrapper">
+        <article class="flow">
+            <h1>Inheritance cascades downwards</h1>
+            <p>Properties that can be inherited cascade downwards, and child elements will get a computed value which
+                represents its parent’s value. This means that if a parent has <code>font-weight</code> set to
+                <code>300</code>: all child elements will be light unless they have <code>font-weight</code> set to a
+                different value or the user agent stylesheet has a value for <code>font-weight</code>,
+                for that element. </p>
+            <p>That is the case here. All text is <code>font-weight: 300</code>, but <code>&lt;span&gt;</code>
+                elements have a <code>font-weight</code> of <code>700</code> which overrides the inheritance.
+                <span>This sentence is wrapped in a <code>&lt;span&gt;</code>, so the text is bold weight</span>.</p>
+            <p>Notice also how the inline code <em>also</em> inherits the bold <code>font-weight</code>.</p>
+        </article>
+    </div>
+</body>
+</html>
