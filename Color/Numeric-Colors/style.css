@@ -1,0 +1,22 @@
+.swatch {
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+.swatch__sample {
+    height: 120px;
+    border: 1px solid black;
+}
+
+.auto-grid {
+    display: grid;
+    grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--auto-grid-min-size, 12rem), 1fr);
+    );
+    gap: 1rem;
+    padding: 0;
+}
+
+li + li {
+    margin: 0;
+}

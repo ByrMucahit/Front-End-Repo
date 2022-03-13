@@ -1,0 +1,17 @@
+.my-element {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(#778ca3, #4b6584);
+    border: 5px solid;
+    border-top-color: lightsteelblue;
+    border-right-color: lightsteelblue;
+    border-bottom-color: lightsteelgray;
+    border-left-color: slategray;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
