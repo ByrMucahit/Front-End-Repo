@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Controlling the directions of items | Flexbox</title>
+</head>
+<body>
+        <div class="wrapper">
+            <article class="flow">
+                <h1>The <code>flex-direction</code> property</h1>
+                <figure class="callout">
+                    <p>Use the select list to change the <code>flex-direction</code>.</p>
+                </figure>
+                <div class="controls">
+                    <label>
+                        change the <code>flex-direction</code>
+                        <select id="switcher">
+                            <option value="row">
+                                row
+                            </option>
+                            <option value="row-reverse">
+                                row-reverse
+                            </option>
+                            <option value="column">
+                                column
+                            </option>
+                            <option value="column-reverse">
+                                column reverse
+                            </option>
+                        </select>
+                    </label>
+                </div>
+                <div class="container" id="container">
+                    <div class="box bg-primary color-light">
+                        Item one
+                    </div>
+                    <div class="box">Item two</div>
+                    <div class="box bg-primary-x-light">Item three</div>
+                </div>
+            </article>
+        </div>
+</body>
+<script src="index.js"></script>
+</html>

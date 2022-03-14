@@ -1,0 +1,12 @@
+:root{
+    --var-flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: var(--var-flex-wrap);
+    border: 1px solid burlywood;
+    background: green;
+    max-width: 400px;
+}

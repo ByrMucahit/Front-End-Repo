@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Justify Content | Space Distribution On The Main Axis</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <article class="flow">
+                <h1>Space distribution on the main axis with <code>justify content</code></h1>
+                <figure class="callout">
+                    <p>
+                        Use the select list to change the <code>justify-content</code> value.
+                    </p>
+                </figure>
+                <div class="controls">
+                    <label>
+                        justify content value
+                        <select id="switcher">
+                            <option value="flex-start">
+                                flex-start
+                            </option>
+                            <option value="flex-end">
+                                flex-end
+                            </option>
+                            <option value="center">
+                                center
+                            </option>
+                            <option value="space-around">
+                                space-around
+                            </option>
+                            <option value="space-between">
+                                space-between
+                            </option>
+                            <option value="space-evenly">
+                                space-evenly
+                            </option>
+                        </select>
+                    </label>
+                </div>
+                <div class="container" id="container">
+                    <div class="box">Item one</div>
+                    <div class="box">Item two</div>
+                    <div class="box">Item three</div>
+                </div>
+            </article>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>

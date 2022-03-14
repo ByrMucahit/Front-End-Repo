@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>The Order Propert | Flexbox</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <article class="flow">
+                <h1>The <code>order</code> property</h1>
+                <figure class="callout">
+                    <p>Change the value of the <code>order</code> propert on the first item. The second item has <code>order:2</code>
+                    and the third <code>order:3 </code>.</p>
+                </figure>
+                <div class="controls">
+                    <label>
+                        Item one's <code>order</code>
+                        <select id="switcher">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="container">
+                    <div class="box bg-primary color-light">
+                        Item one
+                    </div>
+                    <div class="box">Item two</div>
+                    <div class="box bg-primary-x-light">
+                        Item three
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,28 @@
+.page {
+    display: flex;
+}
+
+.page > * {
+    padding: 1rem;
+}
+
+.sidebar {
+    background: cornflowerblue;
+    outline: 1px solid salmon;
+    width: 14rem;
+}
+
+body {
+    width: 400px;
+    height: 400px;
+    min-height: unset;
+    padding: 2rem;
+    border: 1px solid red;
+    background:  white;
+    margin: 1rem auto;
+}
+
+.page {
+    background: white;
+    border: 1px solid black;
+}

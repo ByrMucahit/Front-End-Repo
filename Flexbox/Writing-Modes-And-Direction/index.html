@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Writing Modes And Direction | Flexbox</title>
+</head>
+<body>
+    <div class="wrapper">
+        <article class="flow">
+            <h1>Flex items with RTL direction</h1>
+            <figure class="callout">
+                <p>
+                    In this example the flex container has <code>direction: rtl</code> so <code>flex-start</code> for a
+                    row is on the right. Use the select list to change the <code>flex-direction</code>
+                </p>
+            </figure>
+            <div class="controls">
+                <label for="switcher">
+                    Change the flex-direction:
+                </label>
+                <select id="switcher">
+                    <option value="row">row</option>
+                    <option value="row-reverse">row-reverse</option>
+                    <option value="column">column</option>
+                    <option value="column-reverse">column-reverse</option>
+                </select>
+            </div>
+            <div class="container" id="container">
+                <div class="box">البند الأول</div>
+                <div class="box">البند الثاني</div>
+                <div class="box">البند الثالث</div>
+            </div>
+        </article>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
