@@ -1,0 +1,11 @@
+.my-element :first-child{
+    grid-row:  1/3;
+    grid-column: 1/4;
+}
+
+.my-element {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    max-width: 500px;
+}

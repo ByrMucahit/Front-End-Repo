@@ -1,0 +1,16 @@
+.parent {
+    padding: 0.5rem 2rem 2rem;
+    height: 1000px;
+    position: relative;
+    background: blue;
+    border: 1px solid black;
+}
+
+.box {
+    top: 1.5rem;
+    left: 1.5rem;
+}
+
+.parent p {
+    margin: 1em 0;
+}

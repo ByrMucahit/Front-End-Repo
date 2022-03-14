@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Flexbox Item Behaviour | Layout</title>
+</head>
+<body>
+<main>
+    <div class="wrapper flow">
+        <article class="flow">
+            <h1>Flexbox item behaviour</h1>
+            <figure class="callout">
+                <p>The <code>align-items</code>, <code>justify-content</code> and <code>flex-wrap</code> properties allow you to control how flex children elements behave with and around their sibling elements.</p>
+                <p>Toggle the switches to see <code>flex-wrap</code> toggled to enable or disable wrapping, <code>align-items</code> vertically center items and <code>justify-content</code> push items away from each other.</p>
+            </figure>
+            <div>
+                <div class="cluster">
+                    <label class="toggle" for="flex-wrap">
+                        <span class="toggle__label">Turn on wrapping</span>
+                        <input type="checkbox" role="switch" class="toggle__element" id="flex-wrap" />
+                        <div class="toggle__decor" aria-hidden="true">
+                            <div class="toggle__thumb"></div>
+                        </div>
+                    </label>
+                    <label class="toggle" for="align-center">
+                        <span class="toggle__label">Align items in the center</span>
+                        <input type="checkbox" role="switch" class="toggle__element" id="align-center" />
+                        <div class="toggle__decor" aria-hidden="true">
+                            <div class="toggle__thumb"></div>
+                        </div>
+                    </label>
+                    <label class="toggle" for="space">
+                        <span class="toggle__label">Add space between</span>
+                        <input type="checkbox" role="switch" class="toggle__element" id="space" />
+                        <div class="toggle__decor" aria-hidden="true">
+                            <div class="toggle__thumb"></div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </article>
+        <div class="my-element">
+            <div class="box">Child element 1</div>
+            <div class="box">Child element 2</div>
+            <div class="box">Child element 3 has a bit more text than the others</div>
+            <div class="box">Child element 4</div>
+            <div class="box">Child element 5</div>
+            <div class="box">Child element 6</div>
+            <div class="box">The last item</div>
+        </div>
+    </div>
+</main>
+</body>
+<script src="index.js"></script>
+</html>

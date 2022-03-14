@@ -1,0 +1,5 @@
+.countries {
+    width: 100%;
+    column-width: 260px;
+    column-gap: 1em;
+}
