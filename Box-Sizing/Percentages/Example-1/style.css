@@ -1,0 +1,18 @@
+div {
+    width: 300px;
+    height: 100px;
+}
+
+div p {
+    width: 50%;
+    transform: translateX(10%);
+}
+
+div, p {
+    border: 1px solid black;
+    padding: 0.25rem;
+}
+
+* {
+    box-sizing: content-box;
+}

@@ -1,0 +1,18 @@
+div {
+    width: 300px;
+    height: 100px;
+}
+
+div p {
+   margin-top: 50%; /* calculated 150px */
+    padding-left: 50%; /* calculated 150px */
+}
+
+div , p {
+    border: 1px solid black;
+    padding: 0.25rem;
+}
+
+* {
+    box-sizing: content-box;
+}
