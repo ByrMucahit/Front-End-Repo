@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 15rem;
+    max-width: 40rem;
+    gap: 1rem;
+    border: 1px solid yellowgreen;
+    background: rgb(255,255,250);
+}

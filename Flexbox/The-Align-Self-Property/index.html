@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet">
+    <title>The Align Self Propery | Flexbox</title>
+</head>
+<body>
+  <main>
+    <div class="wrapper">
+      <article class="flow">
+        <h1>The <code>align-self</code> property</h1>
+        <figure class="callout">
+          <label for="switcher">
+            Item one's <code>align-self</code>
+            <select id="switcher">
+              <option value="stretch">
+                stretch
+              </option>
+              <option value="flex-start">
+                flex-start
+              </option>
+              <option value="flex-end">
+                flex-end
+              </option>
+              <option value="center">
+                center
+              </option>
+            </select>
+          </label>
+          <label class="toggle" for="toggle-element">
+            <span class="toggle__label">
+              Switch Flex Direction
+            </span>
+            <input
+                    type="checkbox"
+                    role="switch"
+                    class="toggle__element"
+                    id="toggle-element" />
+            <div class="toggle__decor" aria-hidden="true">
+              <div class="toggle__thumb">
+              </div>
+            </div>
+          </label>
+          <div class="container" id="container">
+            <div class="box bg-primary color-light">
+              Item one
+            </div>
+            <div class="box">Item two</div>
+            <div class="box gb-primary-x-light">
+              Item three <br /> with a line break
+            </div>
+          </div>
+        </figure>
+      </article>
+    </div>
+  </main>
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid navajowhite;
+    background: #e2a294;
+}
+
+.box:nth-child(3) {
+    margin-inline-start: auto;
+}
