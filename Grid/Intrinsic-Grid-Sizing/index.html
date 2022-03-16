@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Intrinsic Grid Sizing | Grid</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <article class="flow">
+                <h1>Intrinsic grid sizing</h1>
+                <figure class="callout">
+                    <p>
+                        Use the dropdown to change the column sizes between the different intrinsic sizing keywords.
+                    </p>
+                </figure>
+                <div class="controls">
+                    <label>
+                        Choose column size
+                        <select id="switcher">
+                            <option value="auto">
+                                auto
+                            </option>
+                            <option value="min-content">
+                                min-content
+                            </option>
+                            <option value="max-content">
+                                max-content
+                            </option>
+                            <option value="fit-content(7em)">
+                                fit-content(7em)
+                            </option>
+                        </select>
+                    </label>
+                </div>
+                <div class="container" id="container">
+                    <div class="box">Item One</div>
+                    <div class="box">Item Two</div>
+                    <div class="box">Item Three has more text</div>
+                    <div class="box">Item Four</div>
+                    <div class="box">Item Five</div>
+                </div>
+            </article>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>

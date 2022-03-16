@@ -1,0 +1,13 @@
+:root {
+    --var-col: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, var(--var-col));
+    grid-template-columns: 200px auto;
+    gap: 10px;
+    background-color: #eadbb3;
+    padding: 1em;
+    max-width: 30rem;
+}

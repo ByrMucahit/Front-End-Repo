@@ -1,0 +1,16 @@
+:root {
+    --var-col: 1fr;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    background-color: #eadbb3;
+    padding: 1em;
+    max-width: 70rem;
+}
+
+select {
+    min-width: unset;
+}

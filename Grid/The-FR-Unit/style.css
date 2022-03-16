@@ -1,0 +1,21 @@
+:root {
+    --var-col: 1fr;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr var(--var-col);
+    grid-template-rows: 200px auto;
+    gap: 10px;
+    background-color: beige;
+    padding: 1rem;
+    max-width: 30rem;
+}
+
+select {
+    min-width: unset;
+}
+
+.box.blue{
+    background-color: #e2a294;
+}

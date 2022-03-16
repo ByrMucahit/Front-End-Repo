@@ -1,0 +1,13 @@
+:root {
+    --var-repeat: auto-fill;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(var(--var-repeat), minmax(100px, 1fr));
+    grid-template-rows: 200px auto;
+    gap: 10px;
+    background-color: #e2a294;
+    padding: 1em;
+    max-width: 70rem;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>The fr Unit | Grid</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <article class="flow">
+                <h1>The <code>fr</code> unit</h1>
+                <figure class="callout">
+                    <p>In this example the grid container creates a grid with three column tracks of 1fr. Change the value
+                    the final track.</p>
+                </figure>
+                <div class="controls">
+                    <label>
+                        Choose column size of third track
+                        <select id="switcher">
+                            <option value="1fr">
+                                1fr
+                            </option>
+                            <option value="2fr">
+                                2fr
+                            </option>
+                            <option value="3fr">
+                                3fr
+                            </option>
+                            <option value="4fr">
+                                4fr
+                            </option>
+                        </select>
+                    </label>
+                </div>
+                <div class="container" id="container">
+                    <div class="box">Item one</div>
+                    <div class="box">Item two</div>
+                    <div class="box">Item three has more text</div>
+                    <div class="box">Item four </div>
+                    <div class="box">Item five</div>
+                </div>
+            </article>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
