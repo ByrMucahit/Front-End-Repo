@@ -1,0 +1,23 @@
+:root {
+    --var-flow: row;
+    --var-mode: horizontal-tb;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-flow: row;
+    gap: 10px;
+    background-color: seashell;
+    padding: 1em;
+    max-width: 30rem;
+}
+
+.span-row {
+    grid-row: auto / span 2;
+}
+
+.span-col {
+    grid-column: auto / 2;
+}

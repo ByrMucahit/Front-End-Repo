@@ -1,0 +1,37 @@
+:root {
+    --var-flow: row;
+    --var-mode: horizontal-tb;
+}
+
+.container {
+    writing-mode: var(--var-mode);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, minmax(100px, auto));
+    grid-auto-flow: var(--var-flow);
+    gap: 10px;
+    background-color: #eadbb3;
+    padding: 1em;
+    max-width: 30rem;
+}
+
+.box:not([class="bg-"]){
+    background-color: rgb(255,255,240);
+}
+
+.box {
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: slategray;
+    font-weight: 500;
+    text-align: center;
+    max-width: 40rem;
+}
+
+
+label {
+    --flow-space: 1rem;
+    display: grid;
+    grid-template-columns: 180px min-content;
+    gap: 0.2rem;
+}

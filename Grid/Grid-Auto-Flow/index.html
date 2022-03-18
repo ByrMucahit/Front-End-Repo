@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+    <title>Grid Auto Flow | Grid</title>
+</head>
+<body>
+  <main>
+    <div class="wrapper">
+      <article class="flow">
+        <h1>Grid auto flow</h1>
+        <figure class="callout">
+          <p>In the example try changes auto-flow from to column and also change the writing mode. </p>
+        </figure>
+      </article>
+      <div class="controls">
+        <label>
+          Choose auto flow
+          <select id="switcher">
+            <option value="row">
+              row
+            </option>
+            <option value="column">
+              column
+            </option>
+          </select>
+        </label>
+        <label>
+          Choose writing mode
+          <select id="switcher2">
+            <option value="horizontal-tb">
+              horizontal-tb
+            </option>
+            <option value="vertical-rl">
+              vertical-rl
+            </option>
+            <option value="vertical-lr">
+              vertical-lr
+            </option>
+          </select>
+        </label>
+      </div>
+      <div class="container" id="container">
+        <div class="box">Item one</div>
+        <div class="box">Item two</div>
+        <div class="box">Item three has more text</div>
+        <div class="box">Item four</div>
+        <div class="box">Item five</div>
+      </div>
+    </div>
+  </main>
+</body>
+<script src="index.js"></script>
+</html>

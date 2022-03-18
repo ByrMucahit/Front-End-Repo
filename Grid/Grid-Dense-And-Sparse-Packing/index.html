@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Grid Dense And Sparse Packing | Grid</title>
+</head>
+<body>
+  <main>
+    <div class="wrapper">
+        <article class="flow">
+            <h1>Grid dense and sparse packing</h1>
+            <figure class="callout">
+                <p>Change the packing mode to see how this changes the layout items.</p>
+            </figure>
+            <div class="controls">
+                <label class="toggle" for="gridPacking">
+                    <span class="toggle__label">Turns on dense packing</span>
+                    <input type="checkbox" role="switch" class="toggle__element" id="gridPacking" />
+                    <div class="toggle__decor" aria-hidden="true">
+                        <div class="toggle__thumb"></div>
+                    </div>
+                </label>
+            </div>
+            <div class="container" id="container">
+                <div class="box span-row">Item one</div>
+                <div class="box">Item two</div>
+                <div class="box">Item three has more text</div>
+                <div class="box">Item four</div>
+                <div class="box">Item five</div>
+            </div>
+        </article>
+    </div>
+  </main>
+</body>
+<script src="index.js"></script>
+</html>
