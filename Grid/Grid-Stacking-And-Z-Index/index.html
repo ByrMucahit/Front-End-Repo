@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Grid Stacking And Z-index | Grid</title>
+</head>
+<body>
+<main>
+    <div class="wrapper">
+        <article class="flow">
+            <h1>Grid stacking and <code>z-index</code></h1>
+            <figure class="callout">
+                <p>Toggle item one’s <code>z-index</code> to see how it affects stacking.</p>
+            </figure>
+            <div class="controls">
+                ​
+                <label class="toggle" for="z-index">
+                    <span class="toggle__label">Switch “item one” to have a <code>z-index</code> of 2</span>
+                    <input type="checkbox" role="switch" class="toggle__element" id="z-index">
+                    <div class="toggle__decor" aria-hidden="true">
+                        <div class="toggle__thumb"></div>
+                    </div>
+                </label>
+            </div>
+            <div class="container" id="container">
+                ​
+                <div class="box bg-primary color-light">Item one</div>
+                <div class="box">Item two</div>
+                <div class="box">Item three has more text </div>
+                <div class="box">Item four</div>
+                <div class="box">Item five</div>
+            </div>
+        </article>
+    </div>
+</main>
+</body>
+<script src="index.js"></script>
+</html>

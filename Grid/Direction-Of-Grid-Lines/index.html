@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Direction Of Grid Lines | Grid</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <article class="flow">
+                <h1>Direction Of Grid Lines</h1>
+                <figure class="callout">
+                    <p>Change the direction and writing mode to see the layout change.</p>
+                </figure>
+                <div class="controls">
+                    <label for="switcher">
+                        Set writing mode
+                        <select id="switcher">
+                            <option value="horizontal-tb">
+                                horizontal-tb
+                            </option>
+                            <option value="vertical-rl">
+                                vertical-rl
+                            </option>
+                            <option value="vertical-lr">
+                                vertical-lr
+                            </option>
+                        </select>
+                    </label>
+                    <label class="toggle" for="direction">
+                        <span class="toggle__label">
+                            Set direction to right-to-left
+                        </span>
+                        <input type="checkbox" role="switch" class="toggle__element" id="direction" />
+                        <div class="toggle__decor" aria-hidden="true">
+                            <div class="toggle__thumb">
+                            </div>
+                        </div>
+                    </label>
+                    <label class="container" id="container">
+                        <div class="box span-row">
+                            Item one
+                        </div>
+                        <div class="box">
+                            Item two
+                        </div>
+                        <div class="box span-col">
+                            Item three has more text
+                        </div>
+                        <div class="box">
+                            Item four
+                        </div>
+                        <div class="box">
+                            Item five
+                        </div>
+                    </label>
+                </div>
+            </article>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
