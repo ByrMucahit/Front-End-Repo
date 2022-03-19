@@ -1,0 +1,20 @@
+:root {
+    --direction: lrt;
+}
+
+.my-element {
+    padding: 0.25em;
+    direction: var(--direction);
+}
+
+.my-element:nth-of-type(1) {
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom-right-radius: 1em;
+}
+
+.my-element:nth-of-type(2) {
+    border-block-end: 1px solid red;
+    border-inline-end: 1px solid red;
+    border-end-end-radius: 1em;
+}

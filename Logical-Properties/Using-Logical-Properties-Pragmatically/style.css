@@ -1,0 +1,39 @@
+.label {
+    margin-block-start: 1em;
+    padding-block-start: 1em;
+    margin-block-end: 0;
+    text-align: center;
+    border-block-start: 1px solid red;
+}
+
+p:first-of-type {
+    writing-mode: vertical-rl;
+}
+
+p:last-of-type {
+    flex-basis: calc(100% - 3.2em);
+    margin-inline-start: auto;
+}
+
+.chart {
+    flex: auto;
+    background: var(--color-primary-x-light);
+    padding-block-start: 2em;
+}
+
+svg {
+    display: block;
+    fill: var(--color-primary);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 30rem;
+}
+
+h1 {
+    border-bottom: 1px solid var(--color-stroke);
+    margin-bottom: 2rem;
+    min-width: 20rem;
+}

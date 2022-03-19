@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Properties And Borders | Logical Properties</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <article class="flow">
+                <h1>Logical properties and borders</h1>
+                <figure class="callout">
+                    <p>
+                        Toggle the <code>direction</code> to see how the borders and rounded corners respond.
+                    </p>
+                </figure>
+                <label class="toggle" for="toggle-element">
+                    <span class="toggle__label">
+                        Toggle direction
+                    </span>
+                    <input
+                    type="checkbox"
+                    role="switch"
+                    class="toggle__element"
+                    id="toggle-element"
+                    />
+                    <div class="toggle__decor" aria-hidden="true">
+                        <div class="toggle__thumb">
+                        </div>
+                    </div>
+                </label>
+                <div class="my-element">
+                    <pre>
+                        <code>. my-element {
+                    border-bottom: 1px solid red;
+                    border-right: 1px solid red;
+                    border-bottom-right-radius: 1
+                        }
+                        </code>
+                    </pre>
+                </div>
+                <div class="my-element">
+                    <pre>
+                        <code>
+                        .my-element {
+                            border-block-end: 1px solid red;
+                            border-inline-end: 1px solid red;
+                            border-end-end-radius: 1em;
+                            }
+                        </code>
+                    </pre>
+                </div>
+            </article>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
