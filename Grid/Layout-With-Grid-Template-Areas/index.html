@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Layout With Grid Template Areas | Grid</title>
+</head>
+<body>
+  <main>
+      <div class="wrapper">
+          <article class="flow">
+              <h1>Layout with grid-template-ares</h1>
+              <figure class="callout">
+                  <p>Change the direction and writing mode to see the layout change.</p>
+              </figure>
+              <div class="controls">
+                  <label for="switcher">
+                      Set writing mode.
+                      <select id="switcher">
+                          <option value="horizontal-tb">
+                              horizontal-tb
+                          </option>
+                          <option value="vertical-rl">
+                              vertical-rl
+                          </option>
+                          <option value="vertical-lr">
+                              vertical-lr
+                          </option>
+                      </select>
+                  </label>
+                  <label class="toggle" for="direction">
+                      <span class="toggle__label">
+                          Set the direction to right-to-left
+                      </span>
+                      <input type="checkbox" role="switch" class="toggle__element" id="direction">
+                      <div class="toggle__decor" aria-hidden="true">
+                          <div class="toggle__thumb">
+                          </div>
+                      </div>
+                  </label>
+                  <div class="container" id="container">
+                      <div class="box item1">grid-area:header</div>
+                      <div class="box item2">grid-area:sidebar</div>
+                      <div class="box item3">grid-area:content</div>
+                      <div class="box item4">grid-area:footer;</div>
+                  </div>
+              </div>
+          </article>
+      </div>
+  </main>
+</body>
+<script rel="script" src="index.js"></script>
+</html>
