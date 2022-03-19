@@ -1,0 +1,27 @@
+p:nth-child(2) {
+    writing-mode: vertical-lr;
+}
+
+p:nth-child(3){
+    writing-mode: vertical-rl;
+    padding-block: 1em;
+}
+
+p {
+    max-inline-size: 20ch;
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+article > * {
+    padding: 0.5em;
+    border: 1px solid var(--color-stroke);
+}
+
+:is(p, li, blockquote, dl) {
+    max-width: 65ch;
+}

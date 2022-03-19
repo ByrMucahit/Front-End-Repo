@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Start And End Text Align | Logical Properties</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <article class="flow">
+                <h1>Start and end, text align</h1>
+                <figure class="callout">
+                    <p>
+                        Toggle the <code>direction</code> to see how
+                        <code>text align</code> responds.
+                    </p>
+                </figure>
+                <label class="toggle" for="toggle-element">
+                    <span class="toggle__label">Toggle direction</span>
+                    <input type="checkbox" role="switch" class="toggle__element" id="toggle-element"/>
+                    <div class="toggle__decor" aria-hidden="true">
+                        <div class="toggle__thumb">
+
+                        </div>
+                    </div>
+                </label>
+                <div class="sample flow">
+                    <div>
+                        <p>My <code>text-align</code> is <code>right</code>.</p>
+                        <p>My <code>text-align</code> is <code>end</code>.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>

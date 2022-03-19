@@ -1,0 +1,18 @@
+p {
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0.5em;
+    background-color: #f3f3f3;
+    border: 1px solid var(--color-stroke);
+}
+
+p svg {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 0.5em;
+    flex: none;
+    fill: var(--color-primary);
+}
+

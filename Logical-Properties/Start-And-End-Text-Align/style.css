@@ -1,0 +1,21 @@
+:root {
+    --direction: ltr;
+}
+
+.sample {
+    direction: var(--direction);
+}
+
+.sample p {
+    margin: 0.5em;
+    border: 1px solid red;
+    padding: 0.5em;
+}
+
+.sample p :nth-child(1){
+    text-align: right;
+}
+
+.sample p:nth-child(2){
+    text-align: end;
+}
