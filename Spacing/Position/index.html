@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>CSS Position Property | Position</title>
 </head>
 <body>
@@ -19,8 +20,36 @@
                         <code>1.5rem</code>
                     </p>
                 </figure>
+                <div>
+                    <label>
+                        Change position value
+                        <select>
+                            <option value="static">
+                                Static (default)
+                            </option>
+                            <option value="relative">
+                                Relative
+                            </option>
+                            <option value="absolute">
+                                Absolute
+                            </option>
+                            <option value="sticky">
+                                Sticky
+                            </option>
+                            <option value="fixed">
+                                Fixed
+                            </option>
+                        </select>
+                    </label>
+                </div>
+                <div class="parent">
+                    <p>I am a sibling element.</p>
+                    <div class="box">Change my position value</div>
+                    <p>I am  another sibling element so you can see how we reflow when the position value is changes</p>
+                </div>
             </article>
         </div>
     </main>
 </body>
+<script src="index.js"></script>
 </html>
