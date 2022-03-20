@@ -1,0 +1,27 @@
+::marker {
+    color: hotpink;
+}
+
+ul ::marker {
+    font-size: 1.5em;
+}
+
+ol ::marker {
+    font-size: 1.1em;
+}
+
+summary::marker {
+    content: '\002B'' ';
+}
+
+details[open] summary::marker {
+    content: '\2212'' ';
+}
+
+li + li {
+    margin-top: 0.25rem;
+}
+
+ol {
+    padding: 0 0 0 1.1em;
+}
