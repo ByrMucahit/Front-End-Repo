@@ -1,0 +1,16 @@
+.my-element {
+    width: 320px;
+    padding: 30px;
+    background: var(--color-primary-x-light);
+    border: 1px solid var(--color-primary);
+    transition: width 300ms cubic-bezier(0, 0.26, 0.13, 1.55) 200ms;
+    transform-origin: center;
+}
+
+.my-element[data-size='content-box'] {
+    box-sizing: content-box;
+}
+
+.my-element > * + * {
+    margin-top: 1em;
+}

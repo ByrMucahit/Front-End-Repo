@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Box Sizing Effects Width Padding | Padding</title>
+</head>
+<body>
+  <main>
+    <div class="wrapper">
+        <article class="flow">
+            <h1>Box sizing effects with padding</h1>
+            <div>
+                <label class="toggle" for="size-switcher">
+                    <span class="toggle__label">
+                        Turn on <code>box-sizing: content-box</code>
+                    </span>
+                    <input type="checkbox" role="switch" class="toggle__element" id="size-switcher" />
+                    <div class="toggle__decorg" aria-hidden="true">
+                        <div class="toggle__decor" aria-hidden="true">
+                            <div class="toggle__thumb">
+
+                            </div>
+                        </div>
+                    </div>
+                </label>
+            </div>
+            <div class="my-element">
+                <p>
+                    This element has <code>30px</code> of padding and a width of <code>320px.</code> If it has a
+                    <code>box-sizing</code> value of <code>content-box</code> -the initial value-this element will be
+                    <code>380px</code> wide <br /> (320 + 30 * 2)
+                </p>
+                <p>
+                    If it has a <code>box-sizing</code> value of <code>border-box</code> (not <code>content-box</code>)
+                    it will be <code>320px</code> wide, regardless of how much padding you add.
+                </p>
+            </div>
+        </article>
+    </div>
+  </main>
+</body>
+<script src="index.js"></script>
+</html>
