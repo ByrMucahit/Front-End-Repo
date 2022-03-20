@@ -1,0 +1,20 @@
+.container {
+    width: 250px;
+    box-sizing: content-box;
+}
+
+.my-element {
+    margin: 20%;
+}
+
+.container {
+    background: var(--color-primary-x-light);
+    border: 1px solid var(--color-primary);
+}
+
+.my-element {
+    border: 1px solid var(--color-stroke);
+    background: white;
+    padding: 1rem;
+    font-weight: bold;
+}

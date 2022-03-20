@@ -1,0 +1,15 @@
+.overlap-element {
+    margin-top: -20px;
+}
+
+p {
+    max-width: 400px;
+    padding: 2em;
+    background: var(--color-primary-x-light);
+    border: 1px solid var(--color-primary);
+}
+
+.overlap-element {
+    background: hsl(20 92% 95% / 60%);
+    border-color: var(--color-mid);
+}

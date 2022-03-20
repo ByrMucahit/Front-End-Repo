@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid var(--color-primary);
+}
+
+.box:nth-child(3){
+    margin-inline-start: auto;
+}

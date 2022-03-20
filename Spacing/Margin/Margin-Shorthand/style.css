@@ -1,0 +1,23 @@
+.all-sides {
+    margin: 20px;
+}
+
+.two-sides {
+    margin: 20px 40px;
+}
+
+.three-sides {
+    margin: 20px 40px 30px;
+}
+
+.container {
+    max-width: 400px;
+    background: var(--color-primary-x-light);
+    border: 1px solid var(--color-primary);
+}
+
+.container > * {
+    border: 1px solid var(--color-stroke);
+    background: white;
+    padding: 1rem;
+}
