@@ -1,0 +1,8 @@
+input::placeholder {
+    color: darkcyan;
+}
+
+input {
+    padding: 0.5em 1em;
+    border: 1px solid var(--color-stroke);
+}
