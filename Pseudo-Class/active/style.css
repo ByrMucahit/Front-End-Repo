@@ -1,0 +1,26 @@
+@import "../../styles/variable.css";
+.button:active {
+    transform: scale(0.99);
+    box-shadow: none;
+}
+
+.button, button {
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    background: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: var(--metric-radius);
+    color: var(--color-light);
+    cursor: pointer;
+    font: inherit;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1ch;
+    transition: background-color 0.2s;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: none;
+}

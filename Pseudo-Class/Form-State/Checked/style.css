@@ -1,0 +1,7 @@
+:checked {
+    box-shadow: 0px 0px 5px 2px green;
+}
+
+label {
+    font-weight: bold;
+}

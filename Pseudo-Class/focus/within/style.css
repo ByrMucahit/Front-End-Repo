@@ -1,0 +1,41 @@
+@import "../../../styles/variable.css";
+
+.helper {
+    display: none;
+}
+
+:focus-within .helper {
+    display: block;
+}
+
+.button:focus {
+    outline: 2px dashed blue;
+    outline-offset: 2px;
+    background-color: black;
+}
+
+.helper {
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
+
+.button, button {
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    background: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: var(--metric-radius);
+    color: var(--color-light);
+    cursor: pointer;
+    font: inherit;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1ch;
+    transition: background-color 0.2s;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: none;
+}

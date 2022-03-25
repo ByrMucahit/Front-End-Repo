@@ -1,0 +1,44 @@
+@import "../../../styles/variable.css";
+
+button:disabled {
+    background: grey;
+    border-color: grey;
+    cursor: not-allowed;
+}
+
+button:enabled {
+    border: 5px solid gold;
+}
+
+button:disabled:hover {
+    box-shadow: none;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+
+.button, button {
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    background: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: var(--metric-radius);
+    color: var(--color-light);
+    cursor: pointer;
+    font: inherit;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1ch;
+    transition: background-color 0.2s;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: none;
+}
