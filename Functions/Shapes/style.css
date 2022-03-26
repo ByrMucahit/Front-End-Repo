@@ -1,0 +1,14 @@
+.circle {
+    clip-path: circle(50%);
+}
+
+.polygon {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);;
+}
+
+.demo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    max-width: 500px;
+}

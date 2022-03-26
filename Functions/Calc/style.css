@@ -1,0 +1,29 @@
+.my-element {
+    width: calc(100% - 2rem);
+    background-color: papayawhip;
+    border: 1px solid gold;
+}
+
+.container {
+    width: 100%;
+    resize: both;
+    overflow: hidden;
+    border: 1px solid;
+}
+
+.my-element {
+    font-weight: bold;
+    padding: 1em;
+    max-width: none;
+    margin: 0 auto;
+}
+
+code {
+    font-weight: normal;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 150px;
+}

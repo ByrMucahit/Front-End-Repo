@@ -1,0 +1,12 @@
+@import "../../styles/variable.css";
+.demo {
+    width: 250px;
+    height: 250px;
+    background: var(--color-primary-x-light);
+    border: 1px solid var(--color-primary);
+}
+
+label {
+    display: block;
+    width: max-content;
+}
