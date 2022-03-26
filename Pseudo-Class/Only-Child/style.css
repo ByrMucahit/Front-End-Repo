@@ -1,0 +1,11 @@
+li:only-child {
+    background: lightyellow;
+}
+
+article {
+    max-width: 60ch;
+}
+
+article > *+* {
+    margin-top: 1.2rem;
+}

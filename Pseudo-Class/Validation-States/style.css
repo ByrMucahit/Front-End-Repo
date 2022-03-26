@@ -1,0 +1,23 @@
+@import "../../styles/variable.css";
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input {
+    min-width: 320px;
+    padding: 0.5rem 1rem;
+    line-height: 1;
+    font: inherit;
+    border: 1px solid var(--color-mid);
+}
+
+.info {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-block-start: 0.5em;
+}
