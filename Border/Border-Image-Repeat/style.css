@@ -1,0 +1,13 @@
+.my-element {
+    border: 1px solid;
+    border-image: url(https://assets.codepen.io/174183/border-image-source.png);
+    border-image-slice: 22 22 22 22;
+    border-image-width: 20px 20px 20px 20px;
+    border-image-repeat: stretch;
+}
+
+.my-element {
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+}

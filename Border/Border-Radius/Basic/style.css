@@ -1,0 +1,9 @@
+.my-element {
+    border: 2px solid;
+    border-radius: 1rem;
+}
+
+.my-element {
+    width: 250px;
+    height: 250px;
+}
