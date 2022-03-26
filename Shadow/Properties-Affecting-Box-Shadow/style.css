@@ -1,0 +1,13 @@
+@import "../../styles/variable.css";
+
+.my-element {
+    box-shadow: 0px 0px 20px 5px darkslateblue;
+    border-radius: 25px;
+}
+
+.my-element {
+    width: 250px;
+    height: 250px;
+    background: var(--color-primary-x-light);
+    margin: 1em 2em;
+}

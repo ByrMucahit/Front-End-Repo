@@ -1,0 +1,11 @@
+.my-element {
+    box-shadow: 5px 5px 20px 5px darkslateblue, -5px -5px 20px 5px dodgerblue,
+    inset 0px 0px 10px 2px darkslategray, inset 0px 0px 20px 10px steelblue;
+}
+
+.my-element {
+    width: 250px;
+    height: 250px;
+    background: var(--color-primary-x-light);
+    margin: 1em 2em;
+}

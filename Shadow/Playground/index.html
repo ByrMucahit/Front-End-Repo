@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Playground | Shadows</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <article class="flow">
+                <div class="flow result-css">
+                    <h2>Current CSS</h2>
+                    <p id="result"></p>
+                </div>
+                <form class="inputs">
+                    <div>
+                        <label for="offsetx">Offset X (pixels)
+                        </label>
+                        <input id="offsetx" type="number" min="0" max="100" value="5" />
+                    </div>
+                    <div>
+                        <label for="offsety">Offset Y (pixels)</label>
+                        <input id="offsety" type="number" min="0" max="100" value="5" />
+                    </div>
+                    <div>
+                        <label for="blur">Blur (pixels)</label>
+                        <input id="blur" type="number" min="0" max="100" value="20" />
+                    </div>
+                    <div>
+                        <label for="spread">Spread (pixels)</label>
+                        <input id="spread" type="number" min="0" max="100" value="5" />
+                    </div>
+                    <div>
+                        <label for="color">Color</label>
+                        <input id="color" type="color" value="#0000000">
+                    </div>
+                    <div>
+                        <label for="color">Inset</label>
+                        <input id="inset" type="checkbox"/>
+                    </div>
+                </form>
+                <div class="my-element"></div>
+            </article>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,23 @@
+@import "../../styles/variable.css";
+
+.my-element {
+    box-shadow: 5px 5px 20px 5px #000;
+}
+
+.my-element {
+    --flow-space: 3em;
+    width: 250px;
+    height: 250px;
+    background: var(--color-primary-x-light);
+}
+
+.inputs {
+    max-width: 40rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.result-css > * {
+    --flow-space: 1rem;
+}

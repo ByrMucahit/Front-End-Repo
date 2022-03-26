@@ -1,0 +1,30 @@
+@import "../../styles/variable.css";
+
+.my-element {
+    text-shadow: 3px 3px 3px hotpink;
+}
+
+.my-element {
+    --flow-space: 2rem;
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 1.1;
+    color: var(--color-primary-dark);
+    max-width: 40rem;
+}
+
+.my-element:focus {
+    outline: 2px dashed var(--color-primary);
+    outline-offset: 10px;
+}
+
+.inputs {
+    max-width: 40rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.result-css > * {
+    --flow-space: 1rem;
+}

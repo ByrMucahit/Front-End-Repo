@@ -1,0 +1,16 @@
+figure {
+    max-width: 25rem;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #718093;
+    border-radius: 0.5em;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
+
+figure img {
+    filter: drop-shadow(0px 0px 10px rgba(0 0 0 / 30%));
+}
