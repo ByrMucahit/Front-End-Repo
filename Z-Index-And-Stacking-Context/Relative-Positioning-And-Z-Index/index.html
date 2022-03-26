@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Relative Posiotining And Z-Index | Z Index And Stacking Context</title>
+</head>
+<body>
+
+<div class="wrapper">
+    <article class="flow">
+        <h1>Relative positioning and z-index</h1>
+        <figure class="callout">
+            <p>
+                Turn <code>position: relative;</code> off and on to see how it affects
+                <code>z-index</code>.
+            </p>
+        </figure>
+        <label class="toggle" for="toggle-element">
+            <span class="toggle__label">Turn <code>position: relative;</code> on</span>
+            <input
+                    type="checkbox"
+                    role="switch"
+                    class="toggle__element"
+                    id="toggle-element"
+            />
+            <div class="toggle__decor" aria-hidden="true">
+                <div class="toggle__thumb"></div>
+            </div>
+        </label>
+        <div class="demo">
+            <div class="demo-box"><code>z-index: 3;</code></div>
+            <div class="demo-box"><code>z-index: 1;</code></div>
+            <div class="demo-box"><code>z-index: 2;</code></div>
+        </div>
+    </article>
+</div>
+</main>
+</body>
+<script src="index.js"></script>
+</html>
