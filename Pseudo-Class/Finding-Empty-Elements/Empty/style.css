@@ -1,0 +1,7 @@
+.post :empty {
+    display: none;
+}
+
+.post > * + * {
+    margin-top: 1em;
+}
