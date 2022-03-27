@@ -1,0 +1,33 @@
+.animate {
+    animation-name: grow;
+    animation-duration: 1s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease;
+}
+
+@keyframes grow {
+    0%{
+        transform: scaleX(1.1);
+    }
+
+    50%{
+        transform: scaleX(1.8);
+        background: darkturquoise;
+    }
+}
+
+.grower {
+    width: 200px;
+    height: 80px;
+    background: lightseagreen;
+    position: relative;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.flow {
+    text-align: center;
+}

@@ -1,0 +1,90 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-gap: 1rem;
+  max-width: 700px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  height: 280px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.face {
+  --flow-space: 1rem;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: 1px solid cornflowerblue;
+  backface-visibility: hidden;
+}
+
+.back {
+  display: grid;
+  place-items: center;
+  background: cornflowerblue;
+  transform: rotateY(180deg);
+}
+
+.card:focus,
+.card:focus-within,
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+button {
+  border: 1px solid white;
+  background: none;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  padding: 1rem;
+  transition-duration: 0.25s;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background: white;
+  color: cornflowerblue;
+}
+
+// Reduced motion here
+
+.reduce-motion .back {
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+  transition-duration: 0.6s;
+  transform: none;
+}
+
+.reduce-motion .card:focus,
+.reduce-motion .card:focus-within,
+.reduce-motion .card:hover {
+  transform: none;
+}
+
+.reduce-motion .card:focus .back,
+.reduce-motion .card:focus-within .back,
+.reduce-motion .card:hover .back {
+  opacity: 1;
+  pointer-events: all;
+  transform: none;
+}
+
+
+label { display: block;}
+
+h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  line-height: 1.1;
+}

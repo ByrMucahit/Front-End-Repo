@@ -1,0 +1,29 @@
+.grower {
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes grow {
+    0%{
+        transform: scaleX(1);
+     }
+    50%{
+        transform: scaleX(1.8);
+        background: darkturquoise;
+    }
+}
+
+.grower {
+    width: 200px;
+    height: 80px;
+    background: lightseagreen;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    display: block;
+}
