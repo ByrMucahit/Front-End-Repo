@@ -1,0 +1,10 @@
+.my-element {
+    background:
+            linear-gradient(-45deg, blue -30%, transparent 80%),
+            linear-gradient(45deg, darkred 20%, crimson, darkorange 60%, gold, bisque);
+}
+
+.my-element {
+    width: 250px;
+    height: 250px;
+}

@@ -1,0 +1,8 @@
+.my-element {
+    background: linear-gradient(to right, black, white);
+}
+
+.my-element {
+    width: 250px;
+    height: 250px;
+}

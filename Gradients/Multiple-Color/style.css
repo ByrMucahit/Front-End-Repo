@@ -1,0 +1,15 @@
+.my-element {
+    background: conic-gradient(
+            gold 20deg,
+            lightcoral 20deg 190deg,
+            mediumturquoise 190deg 220deg,
+            plum 220deg 320deg,
+            steelblue 320deg);
+    border-radius: 50%;
+    border: 10px solid;
+}
+
+.my-element {
+    width: 250px;
+    height: 360px;
+}

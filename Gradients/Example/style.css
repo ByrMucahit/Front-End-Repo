@@ -1,0 +1,32 @@
+.intro {
+    width: 100%;
+    background: linear-gradient(to top, #3c006b, #9948d9);
+    color: white;
+    padding: 7rem 2rem 4rem 2rem;
+}
+
+.intro h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    max-width: 18ch;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    max-width: 50ch;
+}
+
+.into a {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: currentColor;
+}
+
+.into > * + * {
+    margin-top: 1.5em;
+}
+
+body {
+    padding: 0;
+}

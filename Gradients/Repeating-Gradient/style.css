@@ -1,0 +1,14 @@
+.my-element {
+    background: repeating-linear-gradient(
+            45deg,
+            red,
+            red 30px,
+            white 30px,
+            white 60px);
+    border: 10px solid;
+}
+
+.my-element {
+    width: 250px;
+    height: 250px;
+}
