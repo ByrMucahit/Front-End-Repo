@@ -1,0 +1,27 @@
+.my-element {
+    mix-blend-mode: luminosity;
+}
+
+.demo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1.5rem;
+    max-width: 550px;
+    margin: 2em auto;
+    padding: 1em;
+    background: lightslategray;
+}
+
+.demo p {
+    margin-top: 0.5rem;
+}
+
+.demo :first-child p {
+    color: white;
+}
+
+.demo img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}

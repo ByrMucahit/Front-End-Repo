@@ -1,0 +1,12 @@
+img {
+    mix-blend-mode: multiply;
+    filter: brightness(110%);
+}
+
+.demo {
+    border: 1px solid lightsteelblue;
+    border-radius: 0.5rem;
+    background: mistyrose;
+    max-width: 300px;
+    overflow: hidden;
+}

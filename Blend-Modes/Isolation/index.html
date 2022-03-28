@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Isolation | Blend Modes</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <article class="flow">
+                <h1>Isolation</h1>
+                <figure class="callout">
+                    <p>Toggle isolation to disable or enable blending</p>
+                </figure>
+                <label class="toggle" for="toggle-element">
+                    <span class="toggle__label">Turn on isolation</span>
+                    <input type="checkbox" role="switch" class="toggle__element" id="toggle-element"/>
+                    <div class="toggle__decor" aria-hidden="true">
+                        <div class="toggle__thumb">
+
+                        </div>
+                    </div>
+                </label>
+                <div class="demo">
+                    <div class="isolate">
+                        <img src="https://source.unsplash.com/s87ngBxo4xg/500x500" alt="Red flowers on branches" />
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
