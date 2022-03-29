@@ -1,0 +1,19 @@
+.my-element {
+    --type: ;
+    --position: ;
+    --image: ;
+    --reset: ;
+}
+
+ul {
+    list-style: var(--reset) var(--type) var(--position) var(--image);
+}
+
+.inputs {
+    max-width: 40rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+

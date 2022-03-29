@@ -1,0 +1,18 @@
+ul.inside {
+    list-style-position: inside;
+}
+
+li {
+    background: plum;
+}
+
+.flow {
+    max-width: 40rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.list-container {
+    margin-top: 0;
+}

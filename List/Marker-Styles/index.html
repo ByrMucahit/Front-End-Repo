@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Marker Styles | List</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <article class="flow">
+                <h1>::marker playground</h1>
+                <figure class="callout">
+                    <p>
+                        Use the inputs to modify the properties of the list's ::marker elements.
+                    </p>
+                </figure>
+                <div class="flow result-css">
+                    <h2>Current CSS</h2>
+                    <p id="result"></p>
+                </div>
+                <form class="inputs">
+                    <div>
+                        <label for="content">content</label>
+                        <input id="content" type="text" value="🥕~">
+                    </div>
+                    <div>
+                        <label for="font-size">
+                            font-size
+                        </label>
+                        <input id="font-size" type="text" value="1rem" />
+                    </div>
+                    <div>
+                        <label for="color">color</label>
+                        <input id="color" type="color" value="#0000FF" />
+                    </div>
+                    <div>
+                        <label for="animation">animation</label>
+                        <input id="animation" type="checkbox" />
+                    </div>
+                </form>
+                <ul class="my-element">
+                    <li>oat milk</li>
+                    <li>rhubarb</li>
+                    <li>cereal</li>
+                    <li>pie crust</li>
+                </ul>
+            </article>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>

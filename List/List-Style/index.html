@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>List Style | List</title>
+</head>
+<body>
+  <main>
+      <div class="wrapper">
+          <article class="flow">
+              <h1>list-style playground</h1>
+              <figure class="callout">
+                  <p>
+                      Use the inputs to modify the properties of the list-style elements.
+                  </p>
+              </figure>
+              <div class="flow result-css">
+                  <h2>Current CSS</h2>
+                  <p id="result"></p>
+              </div>
+              <form class="inputs">
+                  <div>
+                      <label for="type">label</label>
+                      <input id="type" type="text" value="square" />
+                  </div>
+                  <div>
+                      <label for="position">position</label>
+                      <input id="position" type="text" value="inside">
+                  </div>
+                  <div>
+                      <label for="image">image</label>
+                      <input id="image" type="text" value="url('../img/shape.png')" />>
+                  </div>
+                  <div>
+                      <label for="reset">style reset</label>
+                      <input id="reset" type="checkbox" />
+                  </div>
+              </form>
+              <ul class="my-element">
+                  <li>oat milk</li>
+                  <li>rhubarb</li>
+                  <li>cereal</li>
+                  <li>pie crust</li>
+              </ul>
+          </article>
+      </div>
+  </main>
+</body>
+<script src="index.js"></script>
+</html>

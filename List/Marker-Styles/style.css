@@ -1,0 +1,32 @@
+@import "../../styles/variable.css";
+
+@keyframes color-change {
+    50%{
+        color: hotpink;
+    }
+}
+
+.my-element {
+    --content: '🥕~';
+    --font-size: 1rem;
+    --color: #0000FF;
+    --animation: ;
+}
+
+::marker {
+    content: var(--content);
+    font-size: var(--font-size);
+    color: var(--color);
+    animation: var(--animation);
+}
+
+.inputs {
+    max-width: 40rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+li {
+    padding-left: .5rem;
+}
