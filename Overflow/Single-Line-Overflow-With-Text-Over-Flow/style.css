@@ -1,0 +1,37 @@
+@import "../../styles/variable.css";
+
+:root {
+    --var-text-overflow: 'clip';
+    --var-text-direction: 'ltr';
+}
+
+.demo-text {
+    text-overflow: var(--var-text-overflow);
+    direction: var(--var-text-direction);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+
+
+
+.container {
+    background-color: var(--color-primary-x-light);
+    padding: 1em 3em;
+    max-width: 300px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.controls {
+    display: inline-grid;
+    grid-template-columns: minmax(150px, max-content) 1fr;
+    gap: 0 1rem;
+    align-items: center;
+}

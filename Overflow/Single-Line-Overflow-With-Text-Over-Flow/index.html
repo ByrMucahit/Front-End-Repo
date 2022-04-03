@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Single Line Overflow With Text Over Flow | </title>
+</head>
+<body>
+<main>
+    <div class="wrapper">
+        <article class="flow">
+            <figure class="callout">
+                <p>Use the inputs to modify the <code>text-overflow</code> property.</p>
+            </figure>
+            <div class="controls">
+                <div>
+                    <label for="switcher">text-overflow:</label>
+                    <select id="switcher">
+                        <option value="clip">clip</option>
+                        <option value="ellipsis">ellipsis</option>
+                        <!--             <option value="clip ellipsis">clip ellipsis</option> -->
+                        <!--             <option value="fade">fade</option> -->
+                        <!--             <option value=" [..]">custom string "[..]"</option> -->
+                    </select>
+                </div>
+                <div>
+                    <label for="direction">text direction:</label>
+                    <select id="direction">
+                        <option value="ltr">ltr</option>
+                        <option value="rtl">rtl</option>
+                    </select>
+                </div>
+            </div>
+            <div class="container" id="container">
+                <form class="login">
+                    <label for="username">User Name</label>
+                    <input class="demo-text" value="StrawberryRhubarbPieSeason" required name="login[username]" type="text"/>
+                    <label for="password">Password</label>
+                    <input class="password" value="verysecure_password" required name="login[password]" type="password" />
+                </form>
+            </div>
+        </article>
+    </div>
+</main>
+</body>
+<script src="index.js"></script>
+</html>

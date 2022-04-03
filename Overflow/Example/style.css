@@ -1,0 +1,18 @@
+.box {
+    width: 15vw;
+    height: 20vh;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.clip {
+    overflow: clip;
+}
+
+.ellipsis p, .ellipsis h1 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
