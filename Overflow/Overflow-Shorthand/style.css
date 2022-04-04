@@ -1,0 +1,18 @@
+:root {
+    --var-overflow: 'scroll';
+}
+
+.chat-ui, .chat-scrollview {
+    overflow: var(--var-overflow);
+}
+
+.chat-messagelist {
+    width: 500px;
+}
+
+.controls {
+    display: inline-grid;
+    grid-template-columns: minmax(150px, max-content) 1fr;
+    gap: 0 1rem;
+    align-items: center;
+}

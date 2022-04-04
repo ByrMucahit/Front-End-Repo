@@ -1,0 +1,7 @@
+.chat-ui, .chat-scrollview {
+    overflow: visible;
+}
+
+.chat-messagelist {
+    width: 500px;
+}

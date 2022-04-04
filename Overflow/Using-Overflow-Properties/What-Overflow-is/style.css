@@ -1,0 +1,37 @@
+@import "../../../styles/variable.css";
+
+h1 {
+    color: var(--color-primary-dark);
+}
+
+h2 {
+    color: salmon;
+}
+
+.parent {
+    width: 70vw;
+    height: 50vh;
+    border: 5px solid var(--color-primary-dark);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 5px solid salmon;
+    aspect-ratio: 3/1;
+}
+
+.auto-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 30vw 30vw 30vw);
+    gap: 1rem;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    text-align: center;
+    text-align: -webkit-center;
+}

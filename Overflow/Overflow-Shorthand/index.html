@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Overflow Shorthand | Overflow</title>
+</head>
+<body>
+<main>
+  <div class="wrapper">
+    <article class="flow">
+      <figure class="callout">
+        <p>Use the inputs to modify the <code>overflow</code> property.</p>
+      </figure>
+      <div class="cluster">
+        <div class="controls">
+          <div>
+            <label for="switcher">overflow:</label>
+            <select id="switcher">
+              <option value="scroll">scroll</option>
+              <option value="visible">visible</option>
+              <option value="hidden">hidden</option>
+              <option value="clip">clip</option>
+              <option value="auto">auto</option>
+              <option value="hidden auto">hidden auto</option>
+            </select>
+          </div>
+        </div>
+        <div class="chat-ui">
+          <div class="chat-titlebar">
+            <h5>Chat UI</h5>
+            <div class="chat-avatar">
+              <img src="https://cdn.dribbble.com/users/37530/screenshots/2937858/drib_blink_bot.gif" alt="">
+            </div>
+          </div>
+          <div class="chat-scrollview">
+            <div class="chat-messagelist">
+
+              <div class="chat-cluster">
+                <div class="chat-avatar">
+                  <img src="https://cdn.dribbble.com/users/37530/screenshots/2937858/drib_blink_bot.gif" alt="">
+                </div>
+                <section>
+                  <h3>Learn CSS Bot</h3>
+                  <div class="chat-message">Hi!</div>
+                  <div class="chat-message">I'm a bot</div>
+                </section>
+              </div>
+
+              <div mine class="chat-cluster">
+                <section>
+                  <div class="chat-message">Hi!</div>
+                  <div class="chat-message">I'm not a bot</div>
+                  <div class="chat-message">But I am static text that was put here by a human. The only dynamic stuff you'll find here is whatever someone types in the "say something" text area hehe.</div>
+                </section>
+              </div>
+
+              <div class="chat-cluster">
+                <div class="chat-avatar">
+                  <img src="https://cdn.dribbble.com/users/37530/screenshots/2937858/drib_blink_bot.gif" alt="">
+                </div>
+                <section>
+                  <h3>Learn CSS Bot</h3>
+                  <div class="chat-message">Makes sense.</div>
+                  <div class="chat-message">I see this chat implementation is using the overflow property...</div>
+                  <div class="chat-message">Can you tell me more about that?</div>
+                </section>
+              </div>
+
+              <div mine class="chat-cluster">
+                <section>
+                  <div class="chat-message">sure!</div>
+                  <div class="chat-message">Element `overflow` is a property set on an element to control what happens when the children of an element are requesting more space than it has available.</div>
+                  <div class="chat-message">Learn CSS can teach you more about overflow!</div>
+                </section>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="chat-authoring" contenteditable></div>
+        </div>
+      </div>
+    </article>
+  </div>
+</main>
+</body>
+<script src="index.js"></script>
+</html>
