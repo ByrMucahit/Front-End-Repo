@@ -1,0 +1,17 @@
+.demo-box {
+    border: 0.5px solid hsla(0deg, 0%, 60%, 0.5);
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+.linear-gradient {
+    background-image: linear-gradient(rebeccapurple, teal);
+}
+
+.radial-gradient {
+    background-image: radial-gradient(teal, rebeccapurple);
+}
+
+.conic-gradient {
+    background-image: conic-gradient(rebeccapurple, teal, green, blue, purple);
+}

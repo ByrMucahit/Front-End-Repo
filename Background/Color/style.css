@@ -1,0 +1,44 @@
+#group {
+
+}
+
+#customColorBoxControls{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#colorLabel {
+    font-size: 0.725rem;
+}
+
+.demo-box {
+    border: 0.5px solid hsla(0deg, 0%, 60%, 0.5);
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+.rebecca-purple {
+    background-color: rebeccapurple;
+}
+
+.green {
+    background-color: hsl(180deg, 70%, 18%);
+}
+
+.red {
+    background-color: #4e0e0e;
+}
+
+.yellow {
+    background-color: rgb(240, 240, 168);
+}
+
+.blue {
+    background-color: rgb(65.9%, 80%, 94.1%);
+}
+
+.gray {
+    background-color: #c3c6c432;
+}
