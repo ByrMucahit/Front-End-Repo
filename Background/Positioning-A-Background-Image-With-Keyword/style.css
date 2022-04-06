@@ -1,0 +1,43 @@
+.top {
+    background-position: top;
+}
+
+.bottom {
+    background-position: bottom;
+}
+
+.center {
+    background-position: center;
+}
+
+.left {
+    background-position: left;
+}
+
+.right {
+    background-position: right;
+}
+
+.top-left{
+    background-position: top left;
+}
+
+.top-right {
+    background-position: top right;
+}
+
+.center-left {
+    background-position: center left;
+}
+
+.center-right {
+    background-position: center right;
+}
+
+.bottom-left {
+    background-position: bottom left;
+}
+
+.bottom-right {
+    background-position: bottom right;
+}

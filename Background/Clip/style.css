@@ -1,0 +1,16 @@
+#demoBox {
+    aspect-ratio: 1/1;
+    border: 0.5px solid hsla(0deg, 0%, 60%, 0.5);
+    padding: 1rem;
+
+    font-family: "Google Sans", "Google Sans Text", Roboto, sans-serif;
+    font-size: 10rem;
+    font-weight: bold;
+    text-align: center;
+
+    background-image:url("https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?auto=format&fit=crop&w=690&q=80");
+    background-size: contain;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
